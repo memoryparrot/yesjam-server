@@ -1,10 +1,11 @@
 import express from "express";
 const app = express();
 import connectDB from "./Loader/db";
+import cors from "cors"
 
 // Connect Database
+app.use(cors());
 connectDB();
-
 app.use(express.urlencoded());
 app.use(express.json());
 
