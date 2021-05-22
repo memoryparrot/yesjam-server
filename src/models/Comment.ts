@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 import { IComment } from "../interfaces/IComment"
 
 const CommentSchema = new mongoose.Schema({
