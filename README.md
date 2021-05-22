@@ -58,4 +58,4 @@ const CommentSchema = new mongoose.Schema({
 export default mongoose.model<IComment & mongoose.Document>("Comment", CommentSchema);
 ```
 
-## [API 명세서](https://www.notion.so/API-d4ea698670ad4006813f589d83d492a3)
+### [📃API 명세서](https://www.notion.so/API-d4ea698670ad4006813f589d83d492a3)
