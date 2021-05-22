@@ -14,7 +14,7 @@
 <br>
 
 ## 🔨models🔨
-- User
+`User`
 ```
 import mongoose from 'mongoose';
 import { IUser } from "../interfaces/IUser"
@@ -34,7 +34,7 @@ const UserSchema = new mongoose.Schema({
 export default mongoose.model<IUser & mongoose.Document>("User", UserSchema);
 ```
 
-- Comment
+`Comment`
 ```
 import mongoose from 'mongoose';
 import { IComment } from "../interfaces/IComment"
